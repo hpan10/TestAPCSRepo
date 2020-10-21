@@ -1,17 +1,17 @@
 public class Demo{
   public static void main(String[]args){
-    int x;
-    if (args.length > 0) x = Integer.parseInt(args[0]);
-    else x = 5;
-    printLoop(x);
-    int[][] a = {
-      {2,5,3},
-      {2,6,4},
-      {4,2,6,24,75,3}
-    };
-    System.out.println(arrDeepToString(a).replace("}, ", "},\n "));
-    System.out.println(arrDeepToString(create2DArray(5,6,4)).replace("}, ", "},\n "));
-    System.out.println(arrDeepToString(create2DArrayRandomized(4,10,100)).replace("}, ", "},\n "));
+    // int x;
+    // if (args.length > 0) x = Integer.parseInt(args[0]);
+    // else x = 5;
+    // printLoop(x);
+    // int[][] a = {
+    //   {2,5,3},
+    //   {2,6,4},
+    //   {4,2,6,24,75,3}
+    // };
+    // System.out.println(arrDeepToString(a).replace("}, ", "},\n "));
+    // System.out.println(arrDeepToString(create2DArray(5,6,4)).replace("}, ", "},\n "));
+    // System.out.println(arrDeepToString(create2DArrayRandomized(4,10,100)).replace("}, ", "},\n "));
   }
 
 
