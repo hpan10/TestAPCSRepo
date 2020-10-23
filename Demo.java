@@ -9,9 +9,9 @@ public class Demo{
     //   {2,6,4},
     //   {4,2,6,24,75,3}
     // };
-    // System.out.println(arrDeepToString(a).replace("}, ", "},\n "));
-    // System.out.println(arrDeepToString(create2DArray(5,6,4)).replace("}, ", "},\n "));
-    // System.out.println(arrDeepToString(create2DArrayRandomized(4,10,100)).replace("}, ", "},\n "));
+    // System.out.println(arrayDeepToString(a).replace("}, ", "},\n "));
+    // System.out.println(arrayDeepToString(create2DArray(5,6,4)).replace("}, ", "},\n "));
+    // System.out.println(arrayDeepToString(create2DArrayRandomized(4,10,100)).replace("}, ", "},\n "));
   }
 
 
@@ -37,7 +37,7 @@ public class Demo{
   }
 
 
-  public static String arrDeepToString(int[][] arr){
+  public static String arrayDeepToString(int[][] arr){
     String str = "";
     for (int i = 0; i < arr.length; i++){
       str += arrToString(arr[i]);
